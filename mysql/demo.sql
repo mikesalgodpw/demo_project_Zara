@@ -1,5 +1,5 @@
 
-#=====R51
+#=====R51 starts=====
 create table IF NOT EXISTS user(
    username VARCHAR(20) NOT NULL,
    pwd VARCHAR(20) NOT NULL,
@@ -9,11 +9,9 @@ create table IF NOT EXISTS user(
 INSERT INTO user VALUES ('user1', 'pwd1');
 
 select * from user;
+#=====R51 ends=====
 
-#=====R52
-
-#drop table laptop;
-
+#=====R52 starts=====
 create table IF NOT EXISTS laptop(
    laptop_name VARCHAR(20) NOT NULL,
    username VARCHAR(20) NOT NULL,
@@ -24,3 +22,4 @@ create table IF NOT EXISTS laptop(
 INSERT INTO laptop VALUES ('laptop1', 'user1');
 
 select * from laptop;
+#=====R52 ends=====
