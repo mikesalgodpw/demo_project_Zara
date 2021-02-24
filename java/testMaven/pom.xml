@@ -65,14 +65,15 @@
     <scope>test</scope>
 	</dependency> -->
 	
-	<!-- look for the dependent peronal implemented jar  --> 
+	<!-- look for the dependent peronal implemented jar  
 	<dependency>
     <groupId>com.example</groupId>
     <artifactId>springboot_demo2</artifactId>
     <version>0.0.2-20210128.101312-1</version>
     <scope>test</scope>
 	</dependency>
-    
+    -->
+
   </dependencies>
   
   <!-- If want only to download dependencies from Nexus -->
